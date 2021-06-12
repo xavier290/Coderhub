@@ -6,6 +6,7 @@ import LandingPage from "./pages/landingpage";
 
 //components
 import Header from "./components/header";
+import Footer from "./components/footer";
 
 //styling
 import "../components/styling/main.scss";
@@ -21,6 +22,7 @@ const App = () => {
               <Route exact path="/" component={LandingPage} />
             </Switch>
           </Suspense>
+          <Footer />
         </Fragment>
       </Router>
     </div>
