@@ -1,0 +1,23 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: $text-font-stack;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+// Breakpoints map
+/// @prop {string} keys
+/// @prop {Map} values
+$breakpoints: (
+  "small": 260px,
+  "medium": 768px,
+  "large": 1024px,
+) !default;

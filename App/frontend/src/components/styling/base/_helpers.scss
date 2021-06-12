@@ -1,0 +1,11 @@
+.clearfix::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+}

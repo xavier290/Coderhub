@@ -1,0 +1,36 @@
+.header {
+  position: fixed;
+  height: 14vh;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 70% 30%;
+  place-items: center;
+  background: $brand-color;
+  z-index: 0;
+
+  .logo {
+    display: block;
+    width: 100%;
+    padding-left: 10%;
+    font-weight: bolder;
+
+    a {
+      font-size: 26px;
+      color: black;
+    }
+  }
+
+  button {
+    width: 65px;
+    height: 30px;
+    border: solid 2px $second-color;
+    border-radius: 20%;
+    background-color: transparent;
+
+    a {
+      font-weight: bolder;
+      font-size: 18px;
+      color: $second-color;
+    }
+  }
+}
