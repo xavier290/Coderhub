@@ -6,7 +6,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(to right, $brand-color 40%, white 40%);
+  background: #fff;
 
   .index {
     width: 100%;
@@ -15,11 +15,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 5%;
+    background: linear-gradient(to right, $brand-color 40%, #fdfdfd 40%);
 
     .index-cnt {
       position: relative;
-      width: 100%;
+      width: 90%;
       height: 60vh;
       display: flex;
       flex-direction: column;
@@ -49,7 +49,6 @@
           height: 24px;
           border: solid 2px $second-color;
           background: transparent;
-          transition: all 0.6s;
 
           a {
             color: $second-color;
@@ -75,7 +74,6 @@
           height: 35px;
           border: solid 2px $second-color;
           background: transparent;
-          transition: all 0.6s;
 
           a {
             color: $second-color;
@@ -88,6 +86,10 @@
       }
     }
   }
+}
+
+button {
+  transition: all 0.5s;
 }
 
 button:hover {

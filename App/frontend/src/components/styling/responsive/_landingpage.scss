@@ -1,0 +1,123 @@
+// tablet version of the landing page
+.content {
+  @include media(">=tablet") {
+    border: solid 10vh #fff;
+    border-bottom: none;
+  }
+}
+.index {
+  @include media(">=tablet") {
+    background: linear-gradient(
+      to right,
+      $brand-color 50%,
+      #fdfdfd 50%
+    ) !important;
+    height: 80vh !important;
+    margin-bottom: 10vh;
+  }
+}
+
+.index-cnt {
+  @include media(">=tablet") {
+    background: transparent !important;
+
+    h2 {
+      font-size: 30px;
+    }
+    p {
+      font-size: 18px;
+    }
+  }
+}
+
+.logo {
+  @include media(">=tablet") {
+    top: -10% !important;
+
+    a {
+      font-size: 32px !important;
+    }
+  }
+}
+
+.login {
+  @include media(">=tablet") {
+    top: -9% !important;
+
+    button {
+      width: 70px !important;
+      height: 28px !important;
+    }
+
+    a {
+      font-size: 20px !important;
+    }
+  }
+}
+
+.register {
+  @include media(">=tablet") {
+    top: -9% !important;
+
+    button {
+      width: 130px !important;
+      height: 40px !important;
+    }
+
+    a {
+      font-size: 20px !important;
+    }
+  }
+}
+
+.cnt {
+  @include media(">=tablet") {
+    p {
+      font-size: 22px !important;
+    }
+  }
+}
+// laptop/desktop version of the landing page
+.index {
+  @include media(">=laptop") {
+    width: 90% !important;
+
+    h2 {
+      font-size: 36px !important;
+    }
+
+    p {
+      font-size: 24px !important;
+    }
+  }
+}
+
+.register {
+  @include media(">=laptop") {
+    top: -9% !important;
+    margin-top: 10px;
+
+    button {
+      width: 160px !important;
+      height: 50px !important;
+    }
+
+    a {
+      font-size: 24px !important;
+    }
+  }
+}
+
+.cnt {
+  @include media(">=laptop") {
+    height: 70vh !important;
+    padding: 2% 8% 2% 8% !important;
+  }
+}
+
+.img {
+  @include media(">=laptop") {
+    width: 50vh !important;
+    height: 50vh !important;
+  }
+}

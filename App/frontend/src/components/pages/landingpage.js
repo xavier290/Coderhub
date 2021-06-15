@@ -47,7 +47,7 @@ const LandingPage = () => {
             <img src={reviews} alt="" />
           </div>
           <p>
-            Make your profile look good, share your awesame projects and receive
+            Make your profile look good, share your awesome projects and receive
             reviews to improve your work
           </p>
         </section>
