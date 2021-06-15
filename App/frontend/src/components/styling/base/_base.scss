@@ -18,18 +18,14 @@ body {
 }
 
 body::-webkit-scrollbar {
-  width: 6px;
+  width: 8px;
 }
 
 body::-webkit-scrollbar-track {
-  background: transparent;
+  background: #dddddd;
 }
 
 body::-webkit-scrollbar-thumb {
   background-color: $brand-color;
   border-radius: 20px;
 }
-
-// Breakpoints map
-/// @prop {string} keys
-/// @prop {Map} values
