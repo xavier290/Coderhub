@@ -3,6 +3,7 @@ import { HashRouter as Router, Route, Switch } from "react-router-dom";
 
 //pages
 import LandingPage from "./pages/landingpage";
+import RegisterPage from "./pages/registerpage";
 
 //components
 import Header from "./components/header";
