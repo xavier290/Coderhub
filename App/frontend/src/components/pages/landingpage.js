@@ -28,7 +28,7 @@ const LandingPage = () => {
             </p>
             <div className="register">
               <button>
-                <Link to="/">Get Started</Link>
+                <Link to="/register">Get Started</Link>
               </button>
             </div>
           </div>
