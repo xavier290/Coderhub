@@ -1,5 +1,6 @@
 import Footer from "../components/footer";
 import InputField from "../components/inputField";
+import React from 'react';
 
 const RegisterPage = () => {
     return (
@@ -11,8 +12,7 @@ const RegisterPage = () => {
                 </div>
                 <div className='register-part'>
                     <h1>Create Account</h1>
-                    <InputField type={'text'} />
-
+                    <InputField type={'email'} />
 
                 </div>
             </div>
