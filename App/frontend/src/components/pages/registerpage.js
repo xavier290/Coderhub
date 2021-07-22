@@ -18,7 +18,7 @@ const RegisterPage = () => {
                     <InputField id='input_email' typpe={'email'} />
                     <label htmlFor='input_password'>Password</label>
                     <InputField id='input_password' type={'password'} />
-
+                <button type='submit'>Sign Up</button>
                 </div>
             </div>
         </div>
