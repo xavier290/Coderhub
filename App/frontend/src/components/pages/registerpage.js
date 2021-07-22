@@ -11,12 +11,12 @@ const RegisterPage = () => {
                     <button>Log In</button>
                 </div>
                 <div className='register-part'>
-                    <h1>Createee Account</h1>
-                    <label for='input_username'>Username</label>
+                    <h1>Create Account</h1>
+                    <label htmlFor='input_username'>Username</label>
                     <InputField id='input_username' type={'text'} />
-                    <label for='input_email'>Email</label>
+                    <label htmlFor='input_email'>Email</label>
                     <InputField id='input_email' typpe={'email'} />
-                    <label for='input_password'>Password</label>
+                    <label htmlFor='input_password'>Password</label>
                     <InputField id='input_password' type={'password'} />
 
                 </div>
