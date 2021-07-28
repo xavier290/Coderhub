@@ -1,5 +1,7 @@
 import React, { Fragment } from "react";
 import { Link } from "react-router-dom";
+import SignInBtn from "./signInBtn";
+import SignUpBtn from "./signUpBtn";
 
 const Header = () => {
   return (
@@ -8,9 +10,7 @@ const Header = () => {
         <div className="logo">
           <Link to="/">CoderHub</Link>
         </div>
-        <button>
-          <Link to="/">Login</Link>
-        </button>
+
       </header>
     </Fragment>
   );

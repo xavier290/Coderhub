@@ -6,8 +6,8 @@ import reviews from "../../imgs/reviews.svg";
 import messages from "../../imgs/messages.svg";
 
 import Footer from "../components/footer";
-// import SignInBtn from "./components/SignInBtn";
-// import SignUpBtn from "./components/SignUpBtn";
+import SignInBtn from "../components/signInBtn";
+import SignUpBtn from "../components/signUpBtn";
 
 const LandingPage = () => {
   return (
