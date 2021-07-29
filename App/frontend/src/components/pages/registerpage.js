@@ -5,12 +5,12 @@ import SignInBtn from "../components/signInBtn";
 import SignUpBtn from "../components/signUpBtn";
 
 
-const RegisterPage = () => {
+const RegisterPage = (props) => {
     return (
 
         <div className="registerPage">
             <div className="page-content">
-                <div className='log-in-part'>
+                <div className='sign-in-part'>
                     <h1>Welcome Back!</h1>
                     <p>If you already have an account, sign in  with your personal info to stay connected with us.</p>
                     <SignInBtn />
@@ -18,12 +18,13 @@ const RegisterPage = () => {
                 <div className='register-part'>
                     <h1>Create Account</h1>
                     <label >Name</label>
-                    <InputField id='input_name' placeholder='Name' type={'text'} />
+                    <InputField
+                   id='input_name' placeholder='Name' type={'text'} />
                     <label>Email</label>
                     <InputField id='input_email'  placeholder='Email' type={'email'} />
                     <label >Password</label>
                     <InputField id='input_password'  placeholder='Password' type={'password'} />
-                    <SignUpBtn />
+                    <SignUpBtn style={{color: "blue"}} />
                 </div>
             </div>
         </div>
