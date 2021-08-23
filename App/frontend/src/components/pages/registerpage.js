@@ -17,14 +17,22 @@ const RegisterPage = (props) => {
                 </div>
                 <div className='register-part'>
                     <h1>Create Account</h1>
+                    <form>
+                    <div className='label'>
                     <label >Name</label>
+                    </div>
                     <InputField
-                   id='input_name' placeholder='Name' type={'text'} />
+                   id='input_name' placeholder={'Name'} type={'text'} />
+                    <div className='label'>
                     <label>Email</label>
-                    <InputField id='input_email'  placeholder='Email' type={'email'} />
+                    </div>
+                    <InputField id='input_email'  placeholder={'Email'} type={'email'} />
+                    <div className='label'>
                     <label >Password</label>
-                    <InputField id='input_password'  placeholder='Password' type={'password'} />
-                    <SignUpBtn style={{color: "blue"}} />
+                    </div>
+                    <InputField id='input_password'  placeholder={'Password'} type={'password'} />
+                    <SignUpBtn />
+                    </form>
                 </div>
             </div>
         </div>

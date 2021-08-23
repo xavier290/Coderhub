@@ -1,53 +1,59 @@
 .registerPage{
-    @include media (">=phone"){
-
-    padding:0em;
-    margin:0;
-
-
-
-
+    @include media("<=phone"){
+    text-align: center;
+    
     .page-content{
-        display:flex;
-        flex-direction: column;
-    }
 
-    .sign-in-part{
-        padding:.4em;
-        background-color: #f6f6f6;
-        text-align: center;
-        border: 2px solid black;
 
-        p{
-            font-weight:400;
-        }
-    }
 
-    .register-part{
-        display:flex;
-        flex-direction: column;
-        padding:.4em;
-        margin:0;
-        place-content:center;
-        background-color: #ffc83a;
-        border: 2px solid black;
-        border-top: none;
 
-        
-    }
 
-    h1{
-        font-size:1.1rem;
-        margin:1em;
-        text-align: center;
-    }
+            .sign-in-part{
 
-    p{
-        font-size:1rem;
-    }
+                padding:1em;
+                background-color:#f6f6f6 ;
+                    p{
+                        margin:.5em;
+                        font-weight:bold;
+                    }
+            }
 
-    label{
-        font-weight:bold;
+            .register-part{
+                padding:1em;
+                display:flex;
+                flex-direction: column;
+                background-color:#FFC83A;
+                height:66vh;
+                text-align: center;
+
+                
+                    h1{
+                        margin-bottom: 1em;
+                    }
+
+                    .label{
+                        display:flex;
+                        flex-direction: column;
+                        padding:0;
+                        text-align: left;
+
+                    }
+
+
+
+                
+
+                    label{
+                        font-weight: bold;
+                        margin-top:.4em;
+                        margin-left:3em;
+                        
+                        
+                        
+
+                    }
+
+            }
     }
 
     
