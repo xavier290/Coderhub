@@ -1,5 +1,7 @@
+import logging
 import json
 from channels.generic.websocket import AsyncWebsocketConsumer
+
 
 class ChatConsumer(AsyncWebsocketConsumer):
     async def connect(self):
@@ -25,6 +27,8 @@ class ChatConsumer(AsyncWebsocketConsumer):
     async def receive(self, text_data):
         text_data_json = json.loads(text_data)
         message = text_data_json['message']
+        logging.info(f'message received - {message}')
+
 
         # Send message to room group
         await self.channel_layer.group_send(
