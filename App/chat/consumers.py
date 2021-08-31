@@ -1,3 +1,4 @@
+# this consumers.py is for testing only now
 import logging
 import json
 from channels.generic.websocket import AsyncWebsocketConsumer

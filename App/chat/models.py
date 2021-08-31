@@ -21,6 +21,6 @@ class GroupChatMessage(models.Model):
 
 class Group(models.Model):
     members = models.ManyToManyField(User)
-    name = models.CharField(required=True)
+    name = models.CharField(max_length=150)
     owner = models.ForeignKey(User, on_delete=models.CASCADE)
     messages = models.ManyToManyField(GroupChatMessage)
