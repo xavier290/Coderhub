@@ -31,15 +31,21 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    # packages
+    'rest_framework'
+    
+    # django apps
     "django.contrib.admin",
     "django.contrib.auth",
     "django.contrib.contenttypes",
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
-    "api",
-    "rest_framework",
+
+    # custom apps
     "frontend",
+    'chat.apps.ChatConfig',
+    'api.apps.ApiConfig'
 ]
 
 MIDDLEWARE = [
