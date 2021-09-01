@@ -21,8 +21,7 @@ const RegisterPage = (props) => {
                     <div className='label'>
                     <label >Name</label>
                     </div>
-                    <InputField
-                   id='input_name' placeholder={'Name'} type={'text'} />
+                    <InputField id='input_name' placeholder={'Name'} type={'text'} />
                     <div className='label'>
                     <label>Email</label>
                     </div>
@@ -31,8 +30,8 @@ const RegisterPage = (props) => {
                     <label >Password</label>
                     </div>
                     <InputField id='input_password'  placeholder={'Password'} type={'password'} />
-                    <SignUpBtn />
                     </form>
+                    <SignUpBtn />
                 </div>
             </div>
         </div>
