@@ -9,8 +9,7 @@ import RegisterPage from "./pages/registerpage";
 import Header from "./components/header";
 import Footer from "./components/footer";
 import InputField from "./components/inputField";
-import SignInBtn from "./components/signInBtn";
-import SignUpBtn from "./components/signUpBtn";
+import Button from "./components/button";
 
 //styling
 import "../components/styling/main.scss";

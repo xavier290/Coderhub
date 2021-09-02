@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 import { Link } from "react-router-dom";
-import SignInBtn from "./signInBtn";
-import SignUpBtn from "./signUpBtn";
+import Button from "./button";
+
 
 const Header = () => {
   return (

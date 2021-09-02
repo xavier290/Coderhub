@@ -1,8 +1,7 @@
 import React from 'react';
 
 import InputField from "../components/inputField";
-import SignInBtn from "../components/signInBtn";
-import SignUpBtn from "../components/signUpBtn";
+import Button from "../components/button";
 
 
 const RegisterPage = (props) => {
@@ -13,7 +12,7 @@ const RegisterPage = (props) => {
                 <div className='sign-in-part'>
                     <h1>Welcome Back!</h1>
                     <p>If you already have an account, sign in  with your personal info to stay connected with us.</p>
-                    <SignInBtn />
+                    <Button value={'SIGN IN'} />
                 </div>
                 <div className='register-part'>
                     <h1>Create Account</h1>
@@ -31,7 +30,7 @@ const RegisterPage = (props) => {
                     </div>
                     <InputField id='input_password'  placeholder={'Password'} type={'password'} />
                     </form>
-                    <SignUpBtn />
+                    <Button />
                 </div>
             </div>
         </div>
