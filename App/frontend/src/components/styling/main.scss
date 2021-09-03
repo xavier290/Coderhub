@@ -13,9 +13,14 @@
 // Layout related sections
 @import "layout/header";
 @import "layout/footer";
+@import "layout/button";
+@import "layout/inputField";
+
 
 // pages
 @import "pages/landingpage";
+@import "pages/registerpage";
 
 // responsive
 @import "responsive/landingpage";
+@import "responsive/registerpage";

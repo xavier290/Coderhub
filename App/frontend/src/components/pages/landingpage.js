@@ -6,6 +6,8 @@ import reviews from "../../imgs/reviews.svg";
 import messages from "../../imgs/messages.svg";
 
 import Footer from "../components/footer";
+import Button from "../components/button";
+
 
 const LandingPage = () => {
   return (
@@ -28,7 +30,7 @@ const LandingPage = () => {
             </p>
             <div className="register">
               <button>
-                <Link to="/">Get Started</Link>
+                <Link to="/register">Get Started</Link>
               </button>
             </div>
           </div>

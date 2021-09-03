@@ -1,0 +1,71 @@
+
+
+:root{
+    --red: #FF3838;
+    --yellow:#FFC83A;
+    --orange:#FF9A3E;
+    --black:#161616;
+    --grey:#CCCCCC;
+    --white:#F6F6F6;
+}
+
+.btn{
+    font-weight:bold;
+    background:transparent;
+    border-radius: 7px;
+    cursor:pointer;
+    transition: transform 0.3s ease;
+    margin:2em;
+}
+
+.btn:hover{
+    transform: translateY(-3px);
+}
+
+
+
+// Button Colors
+
+.btn--red{
+    color:var(--red);
+    border:2px solid var(--red)
+}
+.btn--yellow{
+    color:var(--yellow);
+    border:2px solid var(--yellow)
+}
+.btn--orange{
+    color:var(--orange);
+    border:2px solid var(--orange)
+}
+.btn--black{
+    color:var(--black);
+    border:2px solid var(--black)
+}
+.btn--grey{
+    color:var(--grey);
+    border:2px solid var(--grey)
+}
+.btn--white{
+    color:var(--white);
+    border:2px solid var(--white)
+}
+
+
+// Button Sizes
+.btn--small{
+    padding:5px 15px;
+    font-size:15px;
+}
+
+
+.btn--medium{
+    padding: 10px 20px;
+    font-size:18px;
+}
+
+.btn--large{
+    padding:15px 30px;
+    font-size:20px;
+}
+
