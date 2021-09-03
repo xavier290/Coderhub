@@ -12,7 +12,7 @@ const RegisterPage = (props) => {
                 <div className='sign-in-part'>
                     <h1>Welcome Back!</h1>
                     <p>If you already have an account, sign in  with your personal info to stay connected with us.</p>
-                    <Button value={'SIGN IN'} />
+                    <Button type='submit'>SIGN IN</Button>
                 </div>
                 <div className='register-part'>
                     <h1>Create Account</h1>
@@ -30,7 +30,7 @@ const RegisterPage = (props) => {
                     </div>
                     <InputField id='input_password'  placeholder={'Password'} type={'password'} />
                     </form>
-                    <Button />
+                    <Button type='submit'>SIGN UP</Button>
                 </div>
             </div>
         </div>

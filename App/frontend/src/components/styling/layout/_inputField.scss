@@ -1,4 +1,4 @@
-#inputField{
+.inputField{
     width:70%;
     border:2px solid black;
     color:black;
@@ -12,6 +12,6 @@
 
 }
 
-#inputField:focus{
+.inputField:focus{
     width:80%;
 }
