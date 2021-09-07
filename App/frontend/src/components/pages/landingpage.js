@@ -20,7 +20,7 @@ const LandingPage = () => {
             </div>
             <div className="login">
               <button>
-                <Link to="/">Login</Link>
+                <Link to="/signin">Login</Link>
               </button>
             </div>
             <h2>Share, Interact, Connect with Others</h2>
