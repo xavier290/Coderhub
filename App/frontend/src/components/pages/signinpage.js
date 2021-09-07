@@ -15,18 +15,18 @@ const SignInPage = (props)=>{
                     <div className='LABEL'>
                     <label>Email</label>
                     </div>
-                    <InputField type={'email'} placeholder={'Email'} />
+                    <InputField inputSize='inputField--large' type='email' placeholder='Email' />
                     <div className='LABEL'>
                     <label>Password</label>
                     </div>
-                    <InputField type={'password'} placeholder={"Password"}/>
+                    <InputField inputSize='inputField--large' type='password' placeholder="Password"/>
                     </div>
                     <Link to='/' className='forgot-password'>Forgot Your Password?</Link>
                     <Link to='/'><Button>SIGN IN</Button></Link>
                     </form>
                 </div>
                 <div className='sign-up-content'>
-                    <h1>Hello Friend!</h1>
+                    <h1>Hey, Buddy!</h1>
                     <p>Enter your personal details to create your account and start your journey with us!</p>
                     <Link to='/register'><Button>SIGN UP</Button></Link>
                 </div>

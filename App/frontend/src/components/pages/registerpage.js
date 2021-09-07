@@ -22,18 +22,22 @@ const RegisterPage = (props) => {
                     <div className='label'>
                     <label >Name</label>
                     </div>
-                    <InputField id='input_name' placeholder={'Name'} type={'text'} />
+                    <InputField inputSize='inputField--large' placeholder='Name' type='text' />
                     <div className='label'>
                     <label>Email</label>
                     </div>
-                    <InputField id='input_email'  placeholder={'Email'} type={'email'} />
+                    <InputField inputSize='inputField--large' placeholder='Email'type='email' />
                     <div className='label'>
                     <label >Password</label>
                     </div>
-                    <InputField id='input_password'  placeholder={'Password'} type={'password'} />
+                    <InputField inputSize='inputField--large' placeholder='Password' type='password' />
+                    <div className='label'>
+                    <label>Confirm Password</label>
+                    </div>
+                    <InputField inputSize='inputField--large' placeholder="Confirm Password" type='Password'></InputField>
                     </div>
                     </form>
-                    <Link><Button type='submit'>SIGN UP</Button></Link>
+                    <Link to='/'><Button type='submit'>SIGN UP</Button></Link>
                 </div>
             </div>
         </div>

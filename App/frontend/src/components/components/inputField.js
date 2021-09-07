@@ -1,9 +1,16 @@
 import React from 'react';
 
-const InputField = (props) => {
+
+const SIZES=["inputField--small", "inputField--medium", "inputField--large"]
+
+const InputField = ({type, placeholder, inputSize}) => {
+
+const checkInputSize = SIZES.includes(inputSize) ? inputSize : SIZES[1]
+
     return(
-        <input className="inputField" type={props.type}
-                placeholder={props.placeholder}></input>
+        <input className={`inputField ${checkInputSize} `} type={type}
+                placeholder={placeholder}>
+        </input>
     )
 }
 
