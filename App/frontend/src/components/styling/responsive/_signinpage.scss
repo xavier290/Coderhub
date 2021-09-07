@@ -1,0 +1,70 @@
+.sign-in-content{
+    @include media('>=phone'){
+        width:100vw;
+    }
+}
+.SignInPage{
+.sign-up-content{
+    @include media('>=phone'){
+        width:100vw;
+    }
+}
+}
+.SignInPage{
+.CONTENT{
+    @include media('>=tablet'){
+        display:flex;
+        flex-direction: row;
+
+        .sign-in-content{
+            width:60%;
+        }
+
+        .sign-up-content{
+            width:40%;
+        }
+    }
+}
+}
+.CONTENT{
+    .sign-in-content{
+        @include media('>=tablet'){
+        h1{
+            margin-top:4em;
+        }
+        }
+    }
+}
+
+.CONTENT{
+    .sign-up-content{
+        @include media('>=tablet'){
+            h1{
+                margin-top:9em;
+            }
+        }
+    }
+}
+    
+
+
+.CONTENT{
+    .sign-in-content{
+        @include media('>=980px','>=laptop'){
+        h1{
+            margin-top:3.5em;
+        }
+        }
+    }
+}
+
+.CONTENT{
+    .sign-up-content{
+        @include media('>=980px', '>=laptop'){
+            h1{
+                margin-top:6em;
+            }
+        }
+    }
+}
+  

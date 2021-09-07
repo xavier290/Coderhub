@@ -55,57 +55,13 @@
 
 
 
-
-.registerPage{
-    .page-content{
-        .register-part{
-            .label{
-            @include media('>phone', '<=475px'){
-                margin-left:4em;
-            }    
+    .btn{
+            @include media('>=tablet'){
+            padding:10px 20px;
+            font-size:18px;
         }
-
-            .label{
-            @include media('>phone', '<=350px'){
-                margin-left:2.8em;
-            }    
-        }
-
-            .label{
-            @include media('>=476px'){
-                margin-left:5em;
-            }    
-        }
-
-            .label{
-            @include media('>=520px'){
-                margin-left:3.5em;
-            }    
-        }
-
-            .label{
-            @include media('>=705px'){
-                margin-left:4em;
-            }    
-        }
-
-            .label{
-            @include media('>=806px'){
-                margin-left:5em;
-            }    
-        }
-
-            .label{
-            @include media('>=957px'){
-                margin-left:5.8em;
-            }    
-        }
-
-            .label{
-            @include media('>=1050px'){
-                margin-left:7em;
-            }    
-        }
+        @include media('>=laptop'){
+            padding:15px 30px;
+            font-size: 20px;
         }
     }
-}

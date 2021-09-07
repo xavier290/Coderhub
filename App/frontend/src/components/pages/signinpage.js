@@ -7,7 +7,7 @@ import InputField from '../components/inputField';
 const SignInPage = (props)=>{
     return(
         <div className="SignInPage">
-            <div className='content'>
+            <div className='CONTENT'>
                 <div className='sign-in-content'>
                     <h1>Sign In to Coderhub</h1>
                     <form>
@@ -21,14 +21,14 @@ const SignInPage = (props)=>{
                     </div>
                     <InputField type={'password'} placeholder={"Password"}/>
                     </div>
-                    <Link className='forgot-password' to='/'>Forgot Your Password?</Link>
-                    <Button>SIGN IN</Button>
+                    <Link to='/' className='forgot-password'>Forgot Your Password?</Link>
+                    <Link to='/'><Button>SIGN IN</Button></Link>
                     </form>
                 </div>
                 <div className='sign-up-content'>
                     <h1>Hello Friend!</h1>
-                    <p>Enter your personal details and start your journey with us!</p>
-                    <Button>SIGN UP</Button>
+                    <p>Enter your personal details to create your account and start your journey with us!</p>
+                    <Link to='/register'><Button>SIGN UP</Button></Link>
                 </div>
             </div>
         </div>
