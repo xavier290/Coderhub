@@ -26,7 +26,7 @@ const SignInPage = (props)=>{
                     </form>
                 </div>
                 <div className='sign-up-content'>
-                    <h1>Hey, Buddy!</h1>
+                    <h1>Hey, Programmer!</h1>
                     <p>Enter your personal details to create your account and start your journey with us!</p>
                     <Link to='/register'><Button>SIGN UP</Button></Link>
                 </div>
