@@ -32,8 +32,7 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     # packages
-    'rest_framework'
-    
+    "rest_framework",
     # django apps
     "django.contrib.admin",
     "django.contrib.auth",
@@ -41,11 +40,9 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
-
     # custom apps
     "frontend",
-    'chat.apps.ChatConfig',
-    'api.apps.ApiConfig'
+    "api.apps.ApiConfig",
 ]
 
 MIDDLEWARE = [
@@ -108,6 +105,13 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+REST_FRAMEWORK = {
+    # Use Django's standard `django.contrib.auth` permissions,
+    # or allow read-only access for unauthenticated users.
+    "DEFAULT_PERMISSION_CLASSES": [
+        "rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly"
+    ]
+}
 
 # Internationalization
 # https://docs.djangoproject.com/en/3.2/topics/i18n/
