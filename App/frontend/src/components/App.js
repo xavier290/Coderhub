@@ -4,6 +4,7 @@ import { HashRouter as Router, Route, Switch } from "react-router-dom";
 //pages
 import LandingPage from "./pages/landingpage";
 import RegisterPage from "./pages/registerpage";
+import SignInPage from "./pages/signinpage";
 
 //components
 import Header from "./components/header";
@@ -23,6 +24,7 @@ const App = () => {
             <Switch>
               <Route exact path="/" component={LandingPage} />
               <Route exact path="/register" component={RegisterPage} />
+              <Route exact path="/signin" component={SignInPage} />
             </Switch>
           </Suspense>
         </Fragment>

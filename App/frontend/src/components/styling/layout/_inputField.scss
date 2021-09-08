@@ -1,5 +1,4 @@
 .inputField{
-    width:70%;
     border:2px solid black;
     color:black;
     border-radius:24px;
@@ -14,4 +13,28 @@
 
 .inputField:focus{
     width:80%;
+}
+
+.inputField--small{
+    width:35%;
+}
+
+.inputField--small:focus{
+    width:45%;
+}
+
+.inputField--medium{
+    width:50%
+}
+
+.inputField--medium:focus{
+    width:60%
+}
+
+.inputField--large{
+    width:70%
+}
+
+.inputField--large:focus{
+    width:80%
 }

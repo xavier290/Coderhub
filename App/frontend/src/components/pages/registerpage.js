@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { Fragment } from "react";
+import { Link } from "react-router-dom";
 
 import InputField from "../components/inputField";
 import Button from "../components/button";
@@ -12,25 +13,31 @@ const RegisterPage = (props) => {
                 <div className='sign-in-part'>
                     <h1>Welcome Back!</h1>
                     <p>If you already have an account, sign in  with your personal info to stay connected with us.</p>
-                    <Button type='submit'>SIGN IN</Button>
+                    <Link to='/signin'><Button type='submit'>SIGN IN</Button></Link>
                 </div>
                 <div className='register-part'>
                     <h1>Create Account</h1>
                     <form>
+                    <div className='inputs'>
                     <div className='label'>
                     <label >Name</label>
                     </div>
-                    <InputField id='input_name' placeholder={'Name'} type={'text'} />
+                    <InputField inputSize='inputField--large' placeholder='Name' type='text' />
                     <div className='label'>
                     <label>Email</label>
                     </div>
-                    <InputField id='input_email'  placeholder={'Email'} type={'email'} />
+                    <InputField inputSize='inputField--large' placeholder='Email'type='email' />
                     <div className='label'>
                     <label >Password</label>
                     </div>
-                    <InputField id='input_password'  placeholder={'Password'} type={'password'} />
+                    <InputField inputSize='inputField--large' placeholder='Password' type='password' />
+                    <div className='label'>
+                    <label>Confirm Password</label>
+                    </div>
+                    <InputField inputSize='inputField--large' placeholder="Confirm Password" type='Password'></InputField>
+                    </div>
                     </form>
-                    <Button type='submit'>SIGN UP</Button>
+                    <Link to='/'><Button type='submit'>SIGN UP</Button></Link>
                 </div>
             </div>
         </div>
