@@ -16,6 +16,7 @@
     cursor:pointer;
     transition: transform 0.3s ease;
     margin:1em;
+    width:fit-content;
 }
 
 .btn:hover{
@@ -27,28 +28,22 @@
 // Button Colors
 
 .btn--red{
-    color:var(--red);
-    border:2px solid var(--red)
+    border:2px solid var(--red);
 }
 .btn--yellow{
-    color:var(--yellow);
-    border:2px solid var(--yellow)
+    border:2px solid var(--yellow);
 }
 .btn--orange{
-    color:var(--orange);
-    border:2px solid var(--orange)
+    border:2px solid var(--orange);
 }
 .btn--black{
-    color:var(--black);
-    border:2px solid var(--black)
+    border:2px solid var(--black);
 }
 .btn--grey{
-    color:var(--grey);
-    border:2px solid var(--grey)
+    border:2px solid var(--grey);
 }
 .btn--white{
-    color:var(--white);
-    border:2px solid var(--white)
+    border:2px solid var(--white);
 }
 
 
@@ -67,5 +62,6 @@
 .btn--large{
     padding:15px 30px;
     font-size:20px;
+
 }
 

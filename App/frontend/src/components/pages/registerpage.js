@@ -13,7 +13,9 @@ const RegisterPage = (props) => {
                 <div className='sign-in-part'>
                     <h1>Welcome Back!</h1>
                     <p>If you already have an account, sign in  with your personal info to stay connected with us.</p>
-                    <Link to='/signin'><Button type='submit'>SIGN IN</Button></Link>
+                    <div className='button'>
+                    <Button type='submit'><Link to='/signin'>SIGN IN</Link></Button>
+                    </div>
                 </div>
                 <div className='register-part'>
                     <h1>Create Account</h1>
@@ -37,7 +39,9 @@ const RegisterPage = (props) => {
                     <InputField inputSize='inputField--large' placeholder="Confirm Password" type='Password'></InputField>
                     </div>
                     </form>
-                    <Link to='/'><Button type='submit'>SIGN UP</Button></Link>
+                    <div className='button'>
+                    <Button type='submit'><Link to='/'>SIGN UP</Link></Button>
+                    </div>
                 </div>
             </div>
         </div>

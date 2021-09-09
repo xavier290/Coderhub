@@ -7,6 +7,8 @@
             margin:0;
             text-align: center;
             height:100vh;
+
+
             
 
                 .sign-in-part{
@@ -21,6 +23,9 @@
                         p{
                             font-weight:700;
                             margin-top:.9em;
+                        }
+                        a{
+                            color:var(--red);
                         }
                 }
 
@@ -52,12 +57,21 @@
                             text-align: left;
                         }
 
+                        .button{
+                            text-align:center;
+                        }
+
                         
 
                         label{
                             font-weight:bold;
                             margin:0 .5em;
                         }
+                        a{
+                            color:var(--red);
+                        }
+                        
+                        
                 }
         }
 }

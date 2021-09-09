@@ -22,13 +22,17 @@ const SignInPage = (props)=>{
                     <InputField inputSize='inputField--large' type='password' placeholder="Password"/>
                     </div>
                     <Link to='/' className='forgot-password'>Forgot Your Password?</Link>
-                    <Link to='/'><Button>SIGN IN</Button></Link>
+                    <div className='buttton'>
+                    <Button><Link to='/'>SIGN IN</Link></Button>
+                    </div>
                     </form>
                 </div>
                 <div className='sign-up-content'>
                     <h1>Hey, Programmer!</h1>
                     <p>Enter your personal details to create your account and start your journey with us!</p>
-                    <Link to='/register'><Button>SIGN UP</Button></Link>
+                    <div className='button'>
+                    <Button><Link to='/'>SIGN UP</Link></Button>
+                    </div>
                 </div>
             </div>
         </div>
